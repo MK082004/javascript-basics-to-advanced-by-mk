@@ -1,9 +1,9 @@
 // Loops(Chakkar)
 
 // for Loop
-// English Definition: Loops execute a block of code multiple times until a specified condition is met.
+// Definition (EN): Loops execute a block of code multiple times until a specified condition is met.
 
-// Urdu Definition: Chakkar code ke ek block ko multiple dafa tab tak execute karte hain jab tak koi muqarrara shart puri na ho jaye.
+// Definition (UR): Chakkar code ke ek block ko multiple dafa tab tak execute karte hain jab tak koi muqarrara shart puri na ho jaye.
 
 // Basic for loop
 for (let i = 0; i < 5; i++) {
@@ -22,9 +22,9 @@ for (let i = 0, j = 10; i < j; i++, j--) {
 
 
 // while Loop 
-// English Definition: The while loop executes as long as the specified condition evaluates to true.
+// Definition (EN): The while loop executes as long as the specified condition evaluates to true.
 
-// Urdu Definition: While loop tab tak execute hota hai jab tak muqarrara shart true evaluate hoti hai.
+// Definition (UR): While loop tab tak execute hota hai jab tak muqarrara shart true evaluate hoti hai.
 
 let count = 0;
 while (count < 3) {
@@ -40,9 +40,9 @@ while (count < 3) {
 // }
 
 // do -while Loop
-// English Definition: The do -while loop executes the code block once before checking the condition.
+// Definition (EN): The do -while loop executes the code block once before checking the condition.
 
-// Urdu Definition: Do -while loop code block ko shart check karne se pehle ek dafa execute karta hai.
+// Definition (UR): Do -while loop code block ko shart check karne se pehle ek dafa execute karta hai.
 
 let num = 0;
 do {
@@ -51,9 +51,9 @@ do {
 } while (num < 0);
 
 // for...of Loop
-// English Definition: The for...of loop iterates over iterable objects like arrays, strings, etc.
+// Definition (EN): The for...of loop iterates over iterable objects like arrays, strings, etc.
 
-// Urdu Definition: For...of loop iterable objects(jaise arrays, strings, waghera) par iterate karta hai.
+// Definition (UR): For...of loop iterable objects(jaise arrays, strings, waghera) par iterate karta hai.
 
 let fruits = ["apple", "banana", "orange"];
 for (let fruit of fruits) {
@@ -67,9 +67,9 @@ for (let char of text) {
 }
 
 // for...in Loop
-// English Definition: The for...in loop iterates over the enumerable properties of an object.
+// Definition (EN): The for...in loop iterates over the enumerable properties of an object.
 
-// Urdu Definition: For...in loop kisi object ki enumerable properties par iterate karta hai.
+// Definition (UR): For...in loop kisi object ki enumerable properties par iterate karta hai.
 
 let person = { name: "John", age: 30 };
 for (let key in person) {

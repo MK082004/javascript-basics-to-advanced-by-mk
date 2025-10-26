@@ -1,7 +1,7 @@
 // Objects(Ashya)
-// English Definition: Objects are collections of key - value pairs where keys are strings(or Symbols) and values can be any data type.
+// Definition (EN): Objects are collections of key - value pairs where keys are strings(or Symbols) and values can be any data type.
 
-// Urdu Definition: Objects key - value pairs ka collection hain jahan keys strings(ya Symbols) hoti hain aur values koi bhi data type ho sakti hain.
+// Definition (UR): Objects key - value pairs ka collection hain jahan keys strings(ya Symbols) hoti hain aur values koi bhi data type ho sakti hain.
 
 // Object Creation and Methods
 
@@ -34,9 +34,9 @@ console.log(person["lastName"]);   // Bracket notation
 
 
 // Object Destructuring
-// English Definition: Object destructuring allows extracting properties from objects into distinct variables.
+// Definition (EN): Object destructuring allows extracting properties from objects into distinct variables.
 
-// Urdu Definition: Object destructuring objects ki properties ko distinct variables mein extract karne ki ijazat deta hai.
+// Definition (UR): Object destructuring objects ki properties ko distinct variables mein extract karne ki ijazat deta hai.
 
 const { firstName, age } = person;
 console.log(firstName, age); // "John 30"

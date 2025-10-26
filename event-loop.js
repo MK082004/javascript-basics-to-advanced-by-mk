@@ -1,7 +1,7 @@
 // Event Loop and Microtasks(Event Loop aur Chotey Kaam)
-// English Definition: The event loop is JavaScript's concurrency model that handles asynchronous operations. Microtasks (Promises) have higher priority than macrotasks (setTimeout).
+// Definition (EN): The event loop is JavaScript's concurrency model that handles asynchronous operations. Microtasks (Promises) have higher priority than macrotasks (setTimeout).
 
-// Urdu Definition: Event loop JavaScript ka concurrency model hai jo asynchronous operations handle karta hai.Microtasks(Promises) ki macrotasks(setTimeout) se zyada priority hoti hai.
+// Definition (UR): Event loop JavaScript ka concurrency model hai jo asynchronous operations handle karta hai.Microtasks(Promises) ki macrotasks(setTimeout) se zyada priority hoti hai.
 
 console.log("Start"); // 1 - Synchronous
 

@@ -1,7 +1,7 @@
 // Prototypes and Inheritance(Prototypes aur Wirasat)
-// English Definition: JavaScript uses prototypal inheritance where objects can inherit properties and methods from other objects.
+// Definition (EN): JavaScript uses prototypal inheritance where objects can inherit properties and methods from other objects.
 
-// Urdu Definition: JavaScript prototypal inheritance istemal karti hai jahan objects doosre objects ki properties aur methods inherit kar sakte hain.
+// Definition (UR): JavaScript prototypal inheritance istemal karti hai jahan objects doosre objects ki properties aur methods inherit kar sakte hain.
 
 // Constructor Functions
 
@@ -48,9 +48,9 @@ console.log(alice.greet()); // "Hello, I'm Alice" (inherited)
 console.log(alice.work());  // "Alice is working as Developer"
 
 // ES6 Classes(ES6 Classes)
-// English Definition: Classes in ES6 are syntactic sugar over JavaScript's existing prototype-based inheritance, providing a cleaner syntax.
+// Definition (EN): Classes in ES6 are syntactic sugar over JavaScript's existing prototype-based inheritance, providing a cleaner syntax.
 
-// Urdu Definition: ES6 mein classes JavaScript ki existing prototype - based inheritance par syntactic sugar hain, jo cleaner syntax faraham karti hain.
+// Definition (UR): ES6 mein classes JavaScript ki existing prototype - based inheritance par syntactic sugar hain, jo cleaner syntax faraham karti hain.
 class Person {
     constructor(name, age) {
         this.name = name;
@@ -106,9 +106,9 @@ console.log(Person.compareAges(person1, person2)); // 5
 
 
 // This Keyword(This ka lafz)
-// English Definition: The this keyword refers to the object that is executing the current function. Its value depends on how the function is called.
+// Definition (EN): The this keyword refers to the object that is executing the current function. Its value depends on how the function is called.
 
-// Urdu Definition: this keyword us object ki taraf ishara karta hai jo current function execute kar raha hai.Iski value function ke call hone ke tareeqe par munhasir hai.
+// Definition (UR): this keyword us object ki taraf ishara karta hai jo current function execute kar raha hai.Iski value function ke call hone ke tareeqe par munhasir hai.
 
 // Global context
 console.log(this); // Browsers mein Window, Node.js mein global
@@ -155,9 +155,9 @@ console.log(arrowObj.getValue()); // 42
 console.log(arrowObj.badGetValue()); // undefined
 
 // Call, Apply, Bind
-// English Definition: These methods allow you to explicitly set the value of this when calling a function.
+// Definition (EN): These methods allow you to explicitly set the value of this when calling a function.
 
-// Urdu Definition: Ye tareeqe function call karte waqt this ki value explicitly set karne ki ijazat dete hain.
+// Definition (UR): Ye tareeqe function call karte waqt this ki value explicitly set karne ki ijazat dete hain.
 
 const person3 = { name: "Alice" };
 const person4 = { name: "Bob" };

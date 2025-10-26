@@ -1,7 +1,7 @@
 // Map and Set(Map aur Set)
-// English Definition: Map is a collection of key - value pairs where keys can be of any type.Set is a collection of unique values.
+// Definition (EN): Map is a collection of key - value pairs where keys can be of any type.Set is a collection of unique values.
 
-// Urdu Definition: Map key - value pairs ka collection hai jahan keys kisi bhi type ki ho sakti hain.Set unique values ka collection hai.
+// Definition (UR): Map key - value pairs ka collection hai jahan keys kisi bhi type ki ho sakti hain.Set unique values ka collection hai.
 
 // Map - key-value pairs jahan keys kisi bhi type ki ho sakti hain
 const map = new Map();

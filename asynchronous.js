@@ -1,8 +1,8 @@
 // Asynchronous JavaScript(Ghair Mutawasti JavaScript)
 // Callbacks
-// English Definition: A callback is a function passed as an argument to another function, to be executed later.
+// Definition (EN): A callback is a function passed as an argument to another function, to be executed later.
 
-// Urdu Definition: Callback woh function hai jo doosre function ko argument ke tor par pass kiya jata hai, baad mein execute hone ke liye.
+// Definition (UR): Callback woh function hai jo doosre function ko argument ke tor par pass kiya jata hai, baad mein execute hone ke liye.
 
 function fetchData(callback) {
     setTimeout(() => {
@@ -29,9 +29,9 @@ fetchData((error, data) => {
 });
 
 // Promises(Waday)
-// English Definition: A Promise represents the eventual completion(or failure) of an asynchronous operation and its resulting value.
+// Definition (EN): A Promise represents the eventual completion(or failure) of an asynchronous operation and its resulting value.
 
-// Urdu Definition: Promise kisi asynchronous operation ke eventual completion(ya failure) aur uske natijati value ko represent karta hai.
+// Definition (UR): Promise kisi asynchronous operation ke eventual completion(ya failure) aur uske natijati value ko represent karta hai.
 
 // Creating Promises
 
@@ -87,9 +87,9 @@ Promise.any([promise3, promise2])
     .then(value => console.log("First fulfilled:", value)); // "Value 2"
 
 // Async / Await
-// English Definition: Async / await is syntactic sugar built on Promises, making asynchronous code look and behave like synchronous code.
+// Definition (EN): Async / await is syntactic sugar built on Promises, making asynchronous code look and behave like synchronous code.
 
-// Urdu Definition: Async / await Promises par bani syntactic sugar hai, jo asynchronous code ko synchronous code ki tarah dikhne aur amal karne ka mauqa deti hai.
+// Definition (UR): Async / await Promises par bani syntactic sugar hai, jo asynchronous code ko synchronous code ki tarah dikhne aur amal karne ka mauqa deti hai.
 
 // Async function hamesha promise return karta hai
 async function getUserData(userId) {

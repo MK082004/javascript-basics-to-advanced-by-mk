@@ -1,7 +1,7 @@
 // Arrays(Silsilay)
-// English Definition: Arrays are ordered collections of values that can be of any type.
+// Definition (EN): Arrays are ordered collections of values that can be of any type.
 
-// Urdu Definition: Arrays values ke ordered collection hain jo kisi bhi type ke ho sakte hain.
+// Definition (UR): Arrays values ke ordered collection hain jo kisi bhi type ke ho sakte hain.
 
 // Array Creation and Methods
 

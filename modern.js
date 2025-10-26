@@ -1,8 +1,8 @@
 // Modern JavaScript Features(Jadeed JavaScript Khasoosiyat)
 // Destructuring(Tashkeel Torna)
-// English Definition: Destructuring allows extracting values from arrays or properties from objects into distinct variables.
+// Definition (EN): Destructuring allows extracting values from arrays or properties from objects into distinct variables.
 
-// Urdu Definition: Destructuring arrays se values ya objects se properties ko distinct variables mein extract karne ki ijazat deta hai.
+// Definition (UR): Destructuring arrays se values ya objects se properties ko distinct variables mein extract karne ki ijazat deta hai.
 
 // Array destructuring
 const [first, second, ...others] = [1, 2, 3, 4, 5];
@@ -37,9 +37,9 @@ const { database: { host, port }, cache: { enabled } } = config;
 console.log(host, port, enabled); // localhost 5432 true
 
 // Template Literals(Template Strings)
-// English Definition: Template literals are string literals allowing embedded expressions and multi - line strings.
+// Definition (EN): Template literals are string literals allowing embedded expressions and multi - line strings.
 
-// Urdu Definition: Template literals string literals hain jo embedded expressions aur multi - line strings ki ijazat dete hain.
+// Definition (UR): Template literals string literals hain jo embedded expressions aur multi - line strings ki ijazat dete hain.
 
 const name = "John";
 const age = 30;
@@ -70,9 +70,9 @@ const highlighted = highlight`Hello ${name}, you are ${age} years old`;
 console.log(highlighted); // "Hello <mark>John</mark>, you are <mark>30</mark> years old"
 
 // Modules(Modules)
-// English Definition: JavaScript modules allow you to break up your code into separate files for better organization and reusability.
+// Definition (EN): JavaScript modules allow you to break up your code into separate files for better organization and reusability.
 
-// Urdu Definition: JavaScript modules aapko code ko alag alag files mein tor kar behtar tarteeb aur dobara istemal ki salahiyat faraham karte hain.
+// Definition (UR): JavaScript modules aapko code ko alag alag files mein tor kar behtar tarteeb aur dobara istemal ki salahiyat faraham karte hain.
 
 // Exporting(math.js)
 
@@ -112,9 +112,9 @@ console.log(math.subtract(10, 3)); // 7
 
 
 // Optional Chaining and Nullish Coalescing(Ikhtiyari Silsila aur Nullish Milap)
-// English Definition: Optional chaining(?.) allows safe access to nested properties, and nullish coalescing(??) provides default values for null / undefined.
+// Definition (EN): Optional chaining(?.) allows safe access to nested properties, and nullish coalescing(??) provides default values for null / undefined.
 
-// Urdu Definition: Optional chaining(?.) nested properties tak safe access ki ijazat deta hai, aur nullish coalescing(??) null / undefined ke liye default values faraham karta hai.
+// Definition (UR): Optional chaining(?.) nested properties tak safe access ki ijazat deta hai, aur nullish coalescing(??) null / undefined ke liye default values faraham karta hai.
 
 const user = {
     profile: {
@@ -155,9 +155,9 @@ const city = user?.profile?.address?.city ?? "Unknown";
 console.log(city); // "New York"
 
 // Symbols and Iterators(Alamaat aur Iterators)
-// English Definition: Symbols are unique and immutable primitive values, often used as object property keys.Iterators are objects that define a sequence and return value upon completion.
+// Definition (EN): Symbols are unique and immutable primitive values, often used as object property keys.Iterators are objects that define a sequence and return value upon completion.
 
-// Urdu Definition: Symbols unique aur immutable primitive values hain, jo aksar object property keys ke tor par istemal hote hain.Iterators woh objects hain jo kisi sequence ko define karte hain aur completion par value return karte hain.
+// Definition (UR): Symbols unique aur immutable primitive values hain, jo aksar object property keys ke tor par istemal hote hain.Iterators woh objects hain jo kisi sequence ko define karte hain aur completion par value return karte hain.
 
 // Symbols - unique aur immutable
 const sym1 = Symbol("key");

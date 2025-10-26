@@ -7,16 +7,26 @@ This repository contains well-organized notes, examples, and explanations coveri
 
 ## Table of Contents
 
-### JavaScript Fundamentals
-- [Variables and Data Types](#variables-and-data-types)
-- [Operators](#operators)
-- [Control Flow](#control-flow)
-- [Functions](#functions)
-- [Objects and Arrays](#objects-and-arrays)
-
-### Advanced Concepts
-- [Asynchronous JavaScript](#asynchronous-javascript)
-- [Modern JavaScript Features (ES6+)](#modern-javascript-features)
+## File Order Summary
+## For optimal learning, follow this exact sequence:
+[hoisting.js]
+[variables.js]
+[data-types.js]
+[operators.js]
+[type-coercion.js]
+[conditional-statements.js]
+[loops.js]
+[functions.js]
+[objects.js]
+[array.js]
+[map-sets.js]
+[execution-context.js]
+[memory.js]
+[prototype.js]
+[event-loop.js]
+[asynchronous.js]
+[modern.js]
+[proxy-reflect.js]
 
 ---
 
